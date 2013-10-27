@@ -1,13 +1,4 @@
 <?php
-/*
-Plugin Name: _i3-pricing-tables
-Plugin URI: -
-Description: A plugin to create and display pricing tables for WordPress.
-Version: 1.0
-Author: Mo
-Author URI: -
-License: GPL2+
-*/
 
 // Prevent loading this file directly
 defined( 'ABSPATH' ) || exit;
@@ -48,9 +39,5 @@ if ( is_admin() )
 	require_once RWMB_INC_DIR . 'init.php';
 }
 
-// Include Fields
-include 'demo/demo.php';
 
-// Create CPT
-include 'demo/cpt.php';
 

@@ -200,24 +200,3 @@ function i3_columns_style2() {
     echo '</style>';
 }
 add_action('admin_head', 'i3_columns_style2');
-
-
-
-
-function wptuts_event_screen_icon() {
-    $post_type = get_current_screen()->post_type;
- 
-    if ( 'ptable' == $post_type ) {
-        ?>
-        <div class="updated">
-<p>
-	<strong>Usage:</strong><br>
-	<code>[pricing-table tables="1732, 1752, 1749"]</code>
-
-	<p>"tables"		= Comma separated list of table-post-ID´s</p>
-</p>
-        </div>
-        <?php
-    }
-}
-add_action( 'admin_notices', 'wptuts_event_screen_icon' );
