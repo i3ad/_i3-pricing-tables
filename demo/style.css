@@ -1,0 +1,51 @@
+
+.pricing-table-wrapper {
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.pricing-table-wrapper ul.pricing-table {
+	position: relative;
+	z-index: 1;
+	display: block;
+	float: left;
+	list-style-type: none;
+	border-bottom: 5px solid #DDDDDD;
+}
+
+.pricing-table-wrapper ul.pricing-table:hover {
+	
+}
+
+.pricing-table-wrapper ul.pricing-table li {
+	margin: 0;
+}
+
+.pricing-table-wrapper.columns2 ul.pricing-table {
+	width: 50%;
+}
+
+.pricing-table-wrapper.columns3 ul.pricing-table {
+	width: 33.33333%;
+}
+
+.pricing-table-wrapper.columns4 ul.pricing-table {
+	width: 25%;
+}
+
+.pricing-table-wrapper.columns5 ul.pricing-table {
+	width: 20%;
+}
+
+.pricing-table-wrapper.columns6 ul.pricing-table {
+	width: 16.66667%;
+}
+
+ul.pricing-table.featured {
+	margin-top: -40px;
+	font-size: 120%;
+	z-index: 3;
+	-webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
